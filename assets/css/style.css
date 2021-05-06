@@ -174,3 +174,11 @@ svg {
         padding: 8px 15px;
     }
 }
+
+/* Banner */
+#banner {
+    background-color: #111;
+}
+#banner img {
+    width: 100%;
+}
