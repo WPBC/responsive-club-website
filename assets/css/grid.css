@@ -8,13 +8,15 @@
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 	:root {
 		--gutter-x: 1.875rem;
 	}
 }
 
 .container,
+.container-md,
+.container-lg,
 .container-full {
 	width: 100%;
 	margin-left: auto;
@@ -29,22 +31,29 @@
 	}
 }
 @media (min-width: 768px) {
-	.container {
+	.container,
+	.container-md {
 		max-width: 720px;
 	}
 }
 @media (min-width: 992px) {
-	.container {
+	.container,
+	.container-md,
+	.container-lg {
 		max-width: 960px;
 	}
 }
 @media (min-width: 1200px) {
-	.container {
+	.container,
+	.container-md,
+	.container-lg {
 		max-width: 1140px;
 	}
 }
 @media (min-width: 1400px) {
-	.container {
+	.container,
+	.container-md,
+	.container-lg {
 		max-width: 1320px;
 	}
 }
