@@ -342,3 +342,15 @@ svg {
 .news-box p {
     text-transform: uppercase;
 }
+
+/* Footer */
+footer {
+	padding: 30px 0;
+	background-color: #111;
+	color: #777;
+	text-align: center;
+}
+
+footer p {
+	margin-bottom: 0;
+}
